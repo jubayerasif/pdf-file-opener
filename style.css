@@ -1,0 +1,81 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #000;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 30px;
+  max-width: 450px;
+  border-radius: 5px;
+  width: 100%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.file-controls {
+  margin-bottom: 20px;
+}
+
+.fileLabel {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #555; /* Dark gray background */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.fileLabel:hover {
+  background-color: #444; /* Darker gray on hover */
+}
+
+video {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.controls {
+  text-align: left;
+}
+
+.label-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label-container label {
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 10px;
+  color: #ccc; /* Light gray text */
+}
+
+select {
+  padding: 8px;
+  font-size: 14px;
+  background-color: #333; /* Dark background for select */
+  color: #fff;
+}

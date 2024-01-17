@@ -1,1 +1,1 @@
-# pdf-file-opener
+# PDF-file-opener
